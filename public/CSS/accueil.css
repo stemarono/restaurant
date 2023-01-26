@@ -1,0 +1,131 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+}
+a:hover{
+  color:#4586ae;
+  border:1px solid #4586ae;
+}
+ /* HEADER*/
+ 
+.content{
+  display:flex;
+  justify-content: space-between;
+  background-color: black; 
+}
+
+.logo{
+  padding-top:10px;
+}
+.menu .main-menu{
+  display:flex;
+  justify-content: space-around;
+}
+
+.item-menu{
+list-style-type: none;
+padding-right: 45px;
+padding-top: 25px;
+}
+.icon{
+ padding-top:25px;
+}
+
+/*FIN HEADER*/
+/****************************************************************/
+/* BODY*/
+.section{
+   background-image:url('../images/slideshow-25.jpg'); 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+   height:800px;
+}
+.banner{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.subbanner{
+  text-align:center;
+
+}
+.title,.title2,.title-restaurant,.quality{
+  color:white;
+}
+.section-container{
+  position:relative;
+  top:200px;
+}
+.title{
+  text-transform: uppercase;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-right:15px;
+}
+.title2{
+  border-top:2px solid white;
+  border-bottom: 2px solid white;
+  margin-left:15px;
+}
+.subbanner{
+ margin-top:15px;
+}
+.title-restaurant{
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+.quality{
+
+  text-transform: capitalize;
+  margin-top:15px;
+  font-size:1.5em;
+  color:#9dc4d1;
+}
+.photo{
+ margin-top:15px;
+}
+.photo img{
+  height:35px;
+  width:200px;
+}
+
+/*FIN BODY*/
+/*************************************************************************/
+/*FOOTER*/
+
+.footer{
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.text{
+  color:white;
+}
+.phone-draw{
+  filter:invert(100%);
+  width:15px;
+  height:15px;
+}
+.phone a:hover{
+ border:none;
+ color:white;
+}
+
+.mailOwner a, .site-restaurant a{
+  text-transform: lowercase;
+}
+

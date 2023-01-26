@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Restaurant seafood{% endblock %}
+
+
+{% block body %}
+{{include ('accueil/_header.html.twig')}}
+    <section class="section">  
+        <div class="section-container"> 
+            <div class="banner">
+                <div class="title">
+                    <h2>est.</h2>
+                </div>
+                <div>
+                    <img src="{{asset('images/wheel.png')}}" alt="gouvernail bleu">
+                </div>
+                <div class="title2">
+                    <h2>1974</h2>
+                </div>
+            </div>
+            <div class="subbanner">
+                <div class="title-restaurant">
+                    <h1>seafood</h1>
+                </div>
+                <div class='quality'>
+                    <h2>best restaurant</h2>
+                </div>
+                <div class="photo">
+                    <img src="{{asset('images/quality-food.png')}}" alt="bannière de qualité de nourriture">
+                </div>
+            </div>
+        </div>
+    </section>
+    {{include ('accueil/_footer.html.twig')}}
+{% endblock %}

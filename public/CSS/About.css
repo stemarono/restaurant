@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+/***************************************
+/*HEADER*/
+a:hover{
+    color:#d0ac7c;
+    border:1px solid #d0ac7c;
+  }
+.page:hover{
+    border:none;
+}
+.page{
+    color:#d0ac7c; 
+}
+/*FIN HEADER*/
+/*SECTION-01*/
+
+.section-01{
+    background-image: url('../images/page-info-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px; 
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;  
+}
+
+
+.title-about{
+    text-transform: uppercase;
+    color:white;
+    
+}
+.subtitle{
+    color:#d0ac7c;
+    text-align:center;
+}
+span{
+    text-transform: capitalize;
+    
+}
+/*FIN SECTION-01*/
+/*************************************************************
+/*SECTION -02*/
+
+.section-02{
+    background-image: url('../images/about-us-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    height:950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+   
+}
+
+
+.section-02-content{
+   border :1px solid black;
+   padding:30px;
+   width:560px;
+   height:560px;
+   background-color: black;
+   color:white;
+   
+}
+
+.section-02-story{
+
+border:1px solid  white;
+width:510px;
+height:510px;
+padding:25px;
+
+}
+.title-section-02{
+text-align: center;
+text-transform: capitalize;
+font-size: 2em;
+padding-bottom: 2em;
+
+}
+.text-section-02{
+padding-bottom: 2em;
+line-height: 1.7em;
+
+}
+.signature{
+    display:flex;
+    justify-content: center;
+    
+}
+.name-owner{
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+    text-transform: capitalize;
+}
+.owner{
+    text-align: center;
+}
+/*FIN SECTION-02*/
+/****************************************************
+/*SECTION-03*/
+
+.section-03{
+    background-image: url('../images/our-service-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px; 
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    
+}
+.title-section-03{
+    position:absolute;
+    top:120px;
+    left:550px;
+    line-height: 50px;
+}
+.main-title{
+    text-transform:uppercase;
+    color:white;  
+    font-size:2.5em;
+}
+.subtitle-section-03 span{
+    text-transform: capitalize;
+}
+.subtitle-section-03{
+    color:#d0ac7c;
+    text-align: center;
+    font-size:1.5em;
+}
+.content-card{
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+    top:270px;
+   
+   
+}
+.main-card{
+    border:1.5px solid #926c3a;
+    box-shadow: 5px 5px 12px #926c3a;
+    border-radius:0.5em;
+    background-color:#d0ac7c;
+    color:#ffffff;
+    width:250px;
+    height:300px;
+    padding:1em;
+    
+    
+}
+h2, h2 span{
+    text-transform: capitalize;
+}
+.title-card{
+    padding-top:25px;
+}
+.title-card,.photo-card{
+    text-align: center;
+    padding-bottom:20px;
+}
+.text-card{
+    line-height: 20px;
+}
+
+/*FIN SECTION 03*/
+/**********************************************************************
+/*SECTION 04*/
+.section-04{
+    position:relative;
+}
+.section-04-content{
+
+    background-image: url('../images/about-us-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #808080;
+    background-position: left;
+    height: 100vh;
+    margin-top: 120px;
+    width:1000px;   
+}
+
+

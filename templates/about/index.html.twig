@@ -1,0 +1,121 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}About us{% endblock %}
+
+{% block body %}
+{{ include ('about/_header.html.twig')}}
+<div class="container">
+    <div class="section-01">
+        <div class="section-01-content">
+            <h1 class='title-about'> about us</h1>
+            <h3 class="subtitle">~ <span>our</span> story ~</h3>
+        </div>
+    </div>
+    <div class="section-02">
+            {# <div class="photo-section-02">
+                   <img class="image-salmon" src="{{asset('images/about-us-1.jpg')}}" alt="">
+            </div> #}
+        <div class="section-02-content">
+            <div class="section-02-story">
+                <div class="title-section-02">
+                    <h2>our story</h2>
+                    <img class="trait"src="{{asset('images/border-2.png')}}" alt="trait">
+                </div>
+                <div class="text-section-02">
+                    <p>
+                        There are many variations of passages of lorem Ipsum.But the majority have suffered alteration
+                        in some form,by injected humor. Or randomised words which don't look event sliglhty believable.
+                        If you are going to use a passage of lorem ipsum.You need to be sure there isn't anything embarrassing
+                        hidden in the middle of text. All the lorem ipsum generators on the internet tend to repeat predefined
+                        chunks as necessary.Making this the first true generator on the Internet.
+                    </p>
+                </div>
+                <div class="signature">
+                    <img class="photo-signature" src="{{asset('images/signature-1.png')}}" alt="signature du propriétaire">
+                    <div class="name-owner">               
+                        <h3 class="owner"> harry price</h3>
+                        <h4>restaurant owners</h4>
+                    </div>
+                </div>
+            </div>
+            {# <div class="photo2-section-02">
+                <img class="image-fish"src="{{asset('images/about-us-2.jpg')}}" alt="">
+            </div> #}
+        </div>
+    </div>
+    <div class="section-03">
+        <div class="section-03-content">
+            <div class="title-section-03">
+                <h2 class="main-title">our best service</h2>
+                <h3 class="subtitle-section-03">~ <span>experiences</span> on food~</h3>
+            </div>
+            <div class="card">
+                <div class="content-card">
+                    <div class="main-card">
+                        <div class="title-card">
+                            <h2>~ serve ~</h2>
+                        </div>
+                        <div class="photo-card">
+                            <img src="images/serve-white-icon.png" alt="une main tenant un plateau">            
+                        </div>
+                        <div class="text-card">
+                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>            
+                        </div>
+                    </div>    
+                    <div class="main-card">
+                        <div class="title-card">
+                            <h2>~ <span>fresh</span> food ~</h2>
+                        </div>
+                        <div class="photo-card">
+                            <img src="images/fresh-food-white-icon.png" alt="une fourchette et un couteau">            
+                        </div>
+                        <div class="text-card">
+                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>            
+                        </div>
+                    </div>
+                    <div class="main-card">
+                        <div class="title-card">
+                            <h2>~ <span>hot</span> food ~</h2>
+                        </div>
+                        <div class="photo-card">
+                            <img src="images/hot-food-white-icon.png" alt="une main tenant un plateau">            
+                        </div>
+                        <div class="text-card">
+                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>            
+                        </div>
+                    </div>
+                    <div class="main-card">
+                        <div class="title-card">
+                            <h2>~ coffee ~</h2>
+                        </div>
+                        <div class="photo-card">
+                            <img src="images/coffee-white-icon.png" alt="une main tenant un plateau">            
+                        </div>
+                        <div class="text-card">
+                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>            
+                        </div>
+                    </div>                                
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-04">
+        <div class="section-04-content">
+            <div class="text-section-04">
+                <div>
+                    <h2>about us</h2>
+                </div >
+                <div class="subtitle-section-04">
+                    <h3>~ <span>for</span> more add~</h3>
+                </div>
+                <div>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                    voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
+                    accoecati cupiditate non provident,similique sunt in culpa qui officia deserunt mollitia animi id est 
+                    laborum et dolorum fuga Et harum quidem rerum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
