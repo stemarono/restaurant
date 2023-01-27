@@ -153,9 +153,7 @@ line-height: 1.7em;
     display:flex;
     justify-content: space-around;
     position:relative;
-    top:270px;
-   
-   
+    top:270px;   
 }
 .main-card{
     border:1.5px solid #926c3a;
@@ -165,9 +163,7 @@ line-height: 1.7em;
     color:#ffffff;
     width:250px;
     height:300px;
-    padding:1em;
-    
-    
+    padding:1em;    
 }
 h2, h2 span{
     text-transform: capitalize;
@@ -186,20 +182,61 @@ h2, h2 span{
 /*FIN SECTION 03*/
 /**********************************************************************
 /*SECTION 04*/
-.section-04{
-    position:relative;
-}
-.section-04-content{
 
-    background-image: url('../images/about-us-3.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #808080;
-    background-position: left;
-    height: 100vh;
-    margin-top: 120px;
-    width:1000px;   
+
+.section-04-content{
+    display:flex;
+    justify-content: center;
+    margin-top : 150px
+
 }
+.text-section-04{
+    background: #EFEBE9;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding : 0px 25px;
+
+}
+.title-section-04 h2{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size:2em;
+}
+.subtitle-section-04{
+    color:#d0ac7c;
+    padding-bottom: 25px;
+}
+.paragraph{
+    width:450px;
+    padding-right:50px;
+    text-align: justify;
+    line-height:2em;
+    color:#9E9E9E; 
+    padding-bottom:35px; 
+}
+ .read{
+    color:#9E9E9E;
+}
+.read:hover{
+    border:none;
+    color:#9E9E9E;
+}
+.section-05-content{
+    display:flex;
+    justify-content: space-around;
+    margin-top : 80px;
+}
+.trait{
+    border: 2px solid #9E9E9E;
+    width :1100px;
+    margin-left: 130px;
+    margin-top: 150px;
+} 
+
+
+
+
 
 
